@@ -3,7 +3,7 @@ class CreateArticles < ActiveRecord::Migration[5.2]
     create_table :articles do |t|
       t.string :title
       t.text :body
-
+      
       t.timestamps # it will create columns 'created_at' and 'updated_at'
     end
   end
